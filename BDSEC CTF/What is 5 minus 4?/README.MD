@@ -1,7 +1,7 @@
  
 ## Challenge description
 
-![[Screenshot_20230725_012008.png]]
+![](Screenshot_20230725_012008.png)
 
 ## first lets explore 
 
@@ -10,8 +10,8 @@
 
 ##### first thing come to my mind SQLi ,Broken Authentication, Broken Access Control
 
-###### -tried SQLi but did not seem that the website is vulnerable to it
-###### -tried to check if the sign-in and login reveal info about current users or their passwords , i found an admin user  ,  i was about to check password policy and try to brute-force it , but then the admin said no brute-force
+###### tried SQLi but did not seem that the website is vulnerable to it
+###### tried to check if the sign-in and login reveal info about current users or their passwords , i found an admin user  ,  i was about to check password policy and try to brute-force it , but then the admin said no brute-force
 
 ##### back to the challenge description `what is 5 minus 4?` , so i tried to login as username=1 and password=1 and it worked !! 
 
