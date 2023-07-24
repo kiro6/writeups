@@ -5,7 +5,7 @@
 ## first lets explore 
 
 #### there is a login page 
-![[Screenshot_20230724_204347.png]]
+![Screenshot_20230724_204347](https://github.com/kiro6/writeups-ctfs/assets/57776872/4b68ea40-5330-4d45-adc4-041ac8704aef)
 
 #### we have the source code lets take a look 
 ```python 
@@ -77,7 +77,7 @@ if __name__ == "__main__":
 ### SQL phase
 
 ##### if we tried to make SQL bypass we will see the `Ups! Wrong Creds!` message after trying a lot of payload it always the same result 
-![[Screenshot_20230724_210709.png]]
+![Screenshot_20230724_210709](https://github.com/kiro6/writeups-ctfs/assets/57776872/f48819ff-4b8f-484e-a93a-b49407da3403)
 
 ##### it seem that our payload is being escaped if we tried to inject `'"` it will raise a server error , so lets back to the source code and start our local instance to understand what is happening 
 
@@ -130,7 +130,8 @@ sqlite3.OperationalError: unrecognized token: ""' AND password = 'aa'"
 ```
 
 ##### lets try to make a new SQLi payload 
-![[Screenshot_20230724_214859.png]]
+![Screenshot_20230724_214859](https://github.com/kiro6/writeups-ctfs/assets/57776872/1642de99-3591-428e-92fe-9167c73698e5)
+
 ##### a new error means progress it actually worked we could bypass the first check if the query return none 
 
 ##### if we run our local instance and debugged to print the query will be like this 
@@ -142,7 +143,8 @@ username = '"\' OR 1=1 -- -' AND password = 'aa'
 
 
 ##### OR we can inject it like this 
-![[Screenshot_20230724_234210.png]]
+![Screenshot_20230724_234210](https://github.com/kiro6/writeups-ctfs/assets/57776872/ca7611bf-3096-47a9-85b4-d531de46a6df)
+
 ##### the query will be like this 
 ```python
 username = '"\'' AND password = ' OR 1=1 -- -'
