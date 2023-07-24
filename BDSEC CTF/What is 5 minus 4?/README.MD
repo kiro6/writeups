@@ -19,7 +19,7 @@
 ![](Screenshot_20230725_013210.png)
 
 ##### we have an interesting cookie and it seems to be a jwt token and i was right 
-![[Screenshot_20230725_013521.png]]
+![](Screenshot_20230725_013521.png)
 
 ##### back to challenge description `There are some best practices in web development which should strictly followed by the developer!`  so i think maybe it have a weak secret 
 
@@ -49,7 +49,7 @@ python3 jwt_tool.py [options here] -S hs256 -p "this_is_a_dev_secret"
 ```
 
 ##### we found the secret now we can modify the token , i changed the sub to 1 since it is the challenge name (not i get a new token because the previous one expired )
-![[Screenshot_20230725_014825.png]]
+![](Screenshot_20230725_014825.png)
 
 
 ##### send a request with the new token and we get the flag
