@@ -53,5 +53,5 @@ python3 jwt_tool.py [options here] -S hs256 -p "this_is_a_dev_secret"
 
 
 ##### send a request with the new token and we get the flag
-![[Screenshot_20230725_015206.png]]
+![](Screenshot_20230725_015206.png)
 
