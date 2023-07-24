@@ -1,7 +1,6 @@
  
 ## Challenge description
 
-![[Screenshot_20230725_012008.png]]
 
 ## first lets explore 
 
