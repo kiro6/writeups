@@ -1,6 +1,6 @@
 
-## challenge description
-![[Screenshot_20230724_204209.png]]
+challenge description
+##![Screenshot_20230724_204209](https://github.com/kiro6/writeups-ctfs/assets/57776872/fbaa0c1b-6b0f-4001-afff-2d9c3290675c)
 
 ## first lets explore 
 
