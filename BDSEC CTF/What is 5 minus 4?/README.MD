@@ -6,7 +6,7 @@
 ## first lets explore 
 
 ##### we have a login page & sign-in page
-![[Screenshot_20230725_012126.png]]
+![](Screenshot_20230725_012126.png)
 
 ##### first thing come to my mind SQLi ,Broken Authentication, Broken Access Control
 
@@ -16,7 +16,7 @@
 ##### back to the challenge description `what is 5 minus 4?` , so i tried to login as username=1 and password=1 and it worked !! 
 
 ##### lets check the repeater 
-![[Screenshot_20230725_013210.png]]
+![](Screenshot_20230725_013210.png)
 
 ##### we have an interesting cookie and it seems to be a jwt token and i was right 
 ![[Screenshot_20230725_013521.png]]
