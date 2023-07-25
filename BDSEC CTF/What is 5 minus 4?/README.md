@@ -1,12 +1,13 @@
  
 ## Challenge description
 
-![](Screenshot_20230725_012008.png)
+![Screenshot_20230725_012008](https://github.com/kiro6/writeups-ctfs/assets/57776872/1fd64962-6d53-4e72-981e-df996630856a)
+
 
 ## first lets explore 
 
 ##### we have a login page & sign-in page
-![](Screenshot_20230725_012126.png)
+![Screenshot_20230725_012126](https://github.com/kiro6/writeups-ctfs/assets/57776872/2451ba4d-7c8b-42ad-a081-52c1263645c8)
 
 ##### first thing come to my mind SQLi ,Broken Authentication, Broken Access Control
 
@@ -16,10 +17,10 @@
 ##### back to the challenge description `what is 5 minus 4?` , so i tried to login as username=1 and password=1 and it worked !! 
 
 ##### lets check the repeater 
-![](Screenshot_20230725_013210.png)
+![Screenshot_20230725_013210](https://github.com/kiro6/writeups-ctfs/assets/57776872/5d0efc31-53c6-4bce-8e0e-9b8cfdd81868)
 
 ##### we have an interesting cookie and it seems to be a jwt token and i was right 
-![](Screenshot_20230725_013521.png)
+![Screenshot_20230725_013521](https://github.com/kiro6/writeups-ctfs/assets/57776872/20efd9b5-db89-4ba3-8dd2-ddad05bfeae0)
 
 ##### back to challenge description `There are some best practices in web development which should strictly followed by the developer!`  so i think maybe it have a weak secret 
 
@@ -48,10 +49,10 @@ You can tamper/fuzz the token contents (-T/-I) and sign it using:
 python3 jwt_tool.py [options here] -S hs256 -p "this_is_a_dev_secret"
 ```
 
-##### we found the secret now we can modify the token , i changed the sub to 1 since it is the challenge name (not i get a new token because the previous one expired )
-![](Screenshot_20230725_014825.png)
+##### we found the secret now we can modify the token , i changed the sub to 1 since it is the challenge name (note i get a new token because the previous one expired )
+![Screenshot_20230725_014825](https://github.com/kiro6/writeups-ctfs/assets/57776872/d6f8caf8-9c6c-43d7-9337-b36e7fb643f1)
 
 
 ##### send a request with the new token and we get the flag
-![](Screenshot_20230725_015206.png)
+![Screenshot_20230725_015206](https://github.com/kiro6/writeups-ctfs/assets/57776872/13b3f236-7438-48fa-8862-a17a7cda390d)
 
