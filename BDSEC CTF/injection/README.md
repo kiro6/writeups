@@ -76,10 +76,10 @@ if __name__ == "__main__":
 
 ### SQL phase
 
-##### if we tried to make SQL bypass we will see the `Ups! Wrong Creds!` message after trying a lot of payload it always the same result 
+**if we tried to make SQL bypass we will see the `Ups! Wrong Creds!` message after trying a lot of payload it always the same result** 
 ![Screenshot_20230724_210709](https://github.com/kiro6/writeups-ctfs/assets/57776872/f48819ff-4b8f-484e-a93a-b49407da3403)
 
-##### it seem that our payload is being escaped if we tried to inject `'"` it will raise a server error , so lets back to the source code and start our local instance to understand what is happening 
+it seem that our payload is being escaped if we tried to inject `'"` it will raise a server error , so lets back to the source code and start our local instance to understand what is happening 
 
 ##### in this part of code where the query is being constructed is uses `!r format specifier`
 ```python
