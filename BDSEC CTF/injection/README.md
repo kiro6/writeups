@@ -162,7 +162,7 @@ username = '"\'' AND password = ' OR 1=1 -- -'
 
 ### Quine phase
 
-##### the code checks if the result from query is as same as what  is was given so normal SQL injection will not work we will need a SQL query will return a result (to bypass the first check )and the result to be as the same the our input (to bypass the second check )
+##### the code checks if the result from query is as same as what  is was given so normal SQL injection will not work we will need a SQL query will return a result (to bypass the first check )and the result to be as the same as our input (to bypass the second check )
 
 ##### that leads us to inserting topic which is Quine `In computer science, a quine is a self-replicating program—a program that can produce a copy of its own source code as its output`  we need a sqlite quine which return a result and the result is the query it self 
 
