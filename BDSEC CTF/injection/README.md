@@ -199,6 +199,7 @@ it relies on the same logic
 
 #### using the help of [DUCTF SQLi Challenge Writeup](https://www.justinsteven.com/posts/2022/09/27/ductf-sqli2022/) 
 
+here is a quine geneator
 ```python
 def quine(data):
     data = data.replace('$$', "REPLACE(REPLACE($$,CHAR(34),CHAR(39)),CHAR(36),$$)")
