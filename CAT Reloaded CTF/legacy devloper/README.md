@@ -229,14 +229,14 @@ Uv0xnUVkap6S697637cEAC4O8IvoebFqjVEDQFDB9ptnUdaZE5brHOWjdlrp
 ```
 
 ##### the site use jwt token,we have secret and public key we can make any token we want , sign in then login to get our token
+![Screenshot_20230729_171907](https://github.com/kiro6/writeups-ctfs/assets/57776872/b25aae81-f569-4bbe-9889-4a190b2544e7)
 
-![[Screenshot_20230729_171907.png]]
 
 ##### update the token with our private and public key , make `id=1` and put `iss` in the header because the code check if `iss` was in the header
-![[Screenshot 2023-07-29 at 17-22-18 JWT.IO.png]]
+![Screenshot 2023-07-29 at 17-22-18 JWT IO](https://github.com/kiro6/writeups-ctfs/assets/57776872/d4e1b1eb-c7ac-4667-87bb-f878dea10d10)
 
 ##### send request with header `x-access-tokens`
-![[Screenshot_20230729_172705.png]]
+![Screenshot_20230729_172705](https://github.com/kiro6/writeups-ctfs/assets/57776872/d9084458-c1da-47d2-83e2-b9c8d1b935ce)
 
 ##### and here is our flag
 ```
