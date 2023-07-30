@@ -6,7 +6,7 @@
 
 
 
-##### the website was using parameter `mosaa` to construct web :
+##### the website was using parameter `mosaa` to construct web pages:
 ```bash
 curl "http://185.69.167.144:8090/Remotely/?mosaa\=contact" 
 
