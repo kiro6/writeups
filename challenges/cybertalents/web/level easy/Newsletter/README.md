@@ -38,7 +38,7 @@ if(isset($_POST['email'])){
 ?>
 ```
 
-## we have the backupfile name which is the flage 
+## we have the backupfile name which is the flag
 ```
 hgdr64.backup.tar.gz
 ```
