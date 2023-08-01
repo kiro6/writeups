@@ -1,8 +1,0 @@
-Flask-SQLAlchemy
-pyjwt[crypto]
-Werkzeug
-Jinja2
-APScheduler
-itsdangerous
-Flask
-requests
