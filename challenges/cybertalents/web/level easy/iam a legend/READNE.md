@@ -1,7 +1,7 @@
 ## we have only login page
 ![Screenshot 2023-08-01 at 15-08-20 Iam A Legend](https://github.com/kiro6/writeups-ctfs/assets/57776872/01d82ec5-f00b-478d-b1ae-05cded2ff94d)
 
-## using I send `'` to check for sqli and burpsuite i intercepted the request, but i noticed there is an alert saying `wrong password` appeared even the request is intercepted
+## using I send `'` to check for sqli and by using burpsuite i intercepted the request, but i noticed there is an alert saying `wrong password` appeared even the request is intercepted
 
 ## so it is a frontend function , incpect the code and found a script encoded in jsfuck , i tried to decode it but alot of tools and website did not recoginse it until i found [deobfuscatejavascript](deobfuscatejavascript.com/)
 
