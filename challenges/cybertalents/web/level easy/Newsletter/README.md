@@ -2,7 +2,8 @@
 ![Screenshot_20230801_181905](https://github.com/kiro6/writeups-ctfs/assets/57776872/156e4d9d-50a1-4a20-8595-93bdbea99f57)
 
 ## i tried command injection since we want to get the file name in the root dir , so i begin to detect by injecting `;` after the email 
-![Screenshot_20230801_182101](https://github.com/kiro6/writeups-ctfs/assets/57776872/673661a0-b684-4ba1-b9b0-dd9cc2363f57)
+![Screenshot_20230801_183323](https://github.com/kiro6/writeups-ctfs/assets/57776872/12400d74-164f-4e64-87a0-3a840da84eb6)
+
 
 ## my email appeared in the top of the page , lets try to inject a command `cat *`
 ![Screenshot_20230801_181433](https://github.com/kiro6/writeups-ctfs/assets/57776872/dbd69baf-30f0-451e-aa9e-1fd7f441504a)
