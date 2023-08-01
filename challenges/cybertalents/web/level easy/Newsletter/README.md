@@ -2,11 +2,11 @@
 ![Screenshot_20230801_181905](https://github.com/kiro6/writeups-ctfs/assets/57776872/156e4d9d-50a1-4a20-8595-93bdbea99f57)
 
 ## i tried command injection since we want to get the file name in the root dir , so i begin to detect by injecting `;` after the email 
-![Screenshot_20230801_183323](https://github.com/kiro6/writeups-ctfs/assets/57776872/12400d74-164f-4e64-87a0-3a840da84eb6)
+![Screenshot_20230801_182101](https://github.com/kiro6/writeups-ctfs/assets/57776872/dbf8d1a3-bf65-4412-9de6-453817fc0789)
 
 
 ## my email appeared in the top of the page , lets try to inject a command `cat *`
-![Screenshot_20230801_181433](https://github.com/kiro6/writeups-ctfs/assets/57776872/dbd69baf-30f0-451e-aa9e-1fd7f441504a)
+![Screenshot_20230801_183323](https://github.com/kiro6/writeups-ctfs/assets/57776872/12400d74-164f-4e64-87a0-3a840da84eb6)
 
 ## to understand how the vulnerability arise we can read the php source code which we get in the response 
 ```php
