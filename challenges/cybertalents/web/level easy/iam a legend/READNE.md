@@ -3,7 +3,7 @@
 
 ## using I send `'` to check for sqli and by using burpsuite i intercepted the request, but i noticed there is an alert saying `wrong password` appeared even the request is intercepted
 
-## so it is a frontend function , incpect the code and found a script encoded in jsfuck , i tried to decode it but alot of tools and website did not recoginse it until i found [deobfuscatejavascript](deobfuscatejavascript.com/)
+## so it is a frontend function , i incpected the code and found a script encoded in jsfuck , i tried to decode it but alot of tools and website did not recoginse it until i found [deobfuscatejavascript](deobfuscatejavascript.com/)
 
 ## after decoding it the result : 
 ```js
