@@ -11,7 +11,7 @@
 flag :"ab003765f3424bf8e2c8d1d69762d72c"
 ```
 
-## i tried to sumbit the flag , but this was not the flag it seems to be encoded , hashed ...etc  , so i used dcode tool 
+## i tried to sumbit the flag , but this was not the flag it seems to be encoded , hashed ...etc  , so i used [Decodify](https://github.com/s0md3v/Decodify) tool 
 ```bash
 $ dcode ab003765f3424bf8e2c8d1d69762d72c
 
