@@ -1,4 +1,4 @@
-## we have an input field which takes an email as input , the string must contain `@` and `.` that is the validation  
+## we have an input field which takes an email as input , the string must contain `@` and `.` that is the backend validation  
 ![Screenshot_20230801_181905](https://github.com/kiro6/writeups-ctfs/assets/57776872/156e4d9d-50a1-4a20-8595-93bdbea99f57)
 
 ## i tried command injection since we want to get the file name in the root dir , so i begin to detect by injecting `;` after the email 
