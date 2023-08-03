@@ -175,7 +175,7 @@ import base64
 url ='http://wcamxwl32pue3e6m5l3n94wbq36ondvjrx94fezy-web.cybertalentslabs.com/index.php'
 reqWithSession = requests.Session()
 res1 = reqWithSession.get(url)  #get the cookie
-secretCookie = base64.b64decode(parse.unquote(res1.cookies['secret'])) #extract cookie from the resonse , urldecode it , then base64 decode it
+secretCookie = base64.b64decode(parse.unquote(res1.cookies['secret'])) #extract cookie from the response , url decode it , then base64 decode it
 data = {"Q": secretCookie} 
 res2 = reqWithSession.post(url=url , data=data) # send request with Q paramter and secret value
 print(res2.text)
