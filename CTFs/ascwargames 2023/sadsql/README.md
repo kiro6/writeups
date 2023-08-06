@@ -3,7 +3,7 @@
 ## there was just login page 
 ## made an error with `email[]=` revealing that the code is using for escaping addslashes() 
 ## addslashes() bypass with `%bf%27` ti insert single quote without escaping you can search for `addslashes() bypass` for more info  
-# then `spaces` and `or` and `=` are filtered so i replaced them 
+## then `spaces` and `or` and `=` are filtered so i replaced them 
 ## final payload 
 ```
 %bf%27/**/RLIKE/**/0#
