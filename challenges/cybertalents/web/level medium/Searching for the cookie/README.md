@@ -39,4 +39,4 @@ coolcookie112
             legacyAlert(p)
       
 ```
-![Screenshot_20230811_011416](https://github.com/kiro6/writeups-ctfs/assets/57776872/639e9910-023a-4517-8598-c740e88b3696
+![Screenshot_20230811_011416](https://github.com/kiro6/writeups-ctfs/assets/57776872/9c7da9e1-b794-4d71-ab91-12bd37884d98)
