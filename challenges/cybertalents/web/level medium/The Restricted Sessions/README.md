@@ -17,7 +17,7 @@
 ![Screenshot_20230811_012704](https://github.com/kiro6/writeups-ctfs/assets/57776872/4c2faaa5-63dc-4c98-b620-5c8917b68fa4)
 
 ## after i get a session cookie i used this session and requested index.php again 
-![Screenshot_20230811_012623](https://github.com/kiro6/writeups-ctfs/assets/57776872/fcd3d44c-61a9-4941-8f92-a8869ef78d04)
+![Screenshot_20230811_013719](https://github.com/kiro6/writeups-ctfs/assets/57776872/8194fbd9-7b95-49a0-b928-c95d3a7c0f31)
 
 ## i accessed `data/session_store.txt` which contained 
 ```
