@@ -25,7 +25,7 @@ eval("echo \"$input\" ; ");
 ## first problem i thought the server error because there is some string which is not handled yet so i tried `stp=red:"; echo "s` but there was always error i thought maybe it is not using echo to print stuff , so i tried `print()`
 ![Screenshot_20230811_090905](https://github.com/kiro6/writeups-ctfs/assets/57776872/67cc48e8-a56a-4b0c-b08b-b847a4b754af)
 
-## i was lets inject php code , here is the second problem arise , i found that the `eval()` was not filtered so i used concatenating to list dir files 
+## i was right lets inject php code , here is the second problem arise , i found that the `eval()` was not filtered so i used concatenating to list dir files 
 ![Screenshot_20230811_085555](https://github.com/kiro6/writeups-ctfs/assets/57776872/ca6772bd-032b-4c51-948c-8a75c57744ee)
 
 ## final step lets get the flag
