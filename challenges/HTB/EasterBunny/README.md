@@ -69,7 +69,7 @@ router.get("/letters", (req, res) => {
 
 - when the submit func `visit` is called from `bot.js`
 - `/submit` endpoint take json object contain message attribute
-```
+```js
 router.post("/submit", async (req, res) => {
     const { message } = req.body;
 
@@ -98,7 +98,7 @@ router.post("/submit", async (req, res) => {
 
 
 message endpint used to get other letters
-```
+```js
 router.get("/message/:id", async (req, res) => {
     try {
         const { id } = req.params;
@@ -133,7 +133,7 @@ router.get("/message/:id", async (req, res) => {
 ## bot.js
 
 on every submit to a letter a bot is visiting the last submttied letter
-```
+```js
 const puppeteer = require('puppeteer');
 
 const browser_options = {
