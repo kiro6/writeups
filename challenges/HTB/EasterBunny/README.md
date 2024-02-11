@@ -1,3 +1,9 @@
+
+## I have added an automation GO script
+
+
+## wrietup
+
 we have a site that you leave letters , and our flag is in on of this letters (letter 3 specfic) but it need an admin auth to see it
 ![Screenshot_84](https://github.com/kiro6/writeups/assets/57776872/372cfff9-ba16-4a15-9777-20847650d793)
 
